@@ -97,7 +97,7 @@ class GameEngine {
             let entity = this.entities[i];
 
             if (!entity.removeFromWorld) {
-                entity.update();
+                entity.update(this.clockTick);
             }
         }
 
