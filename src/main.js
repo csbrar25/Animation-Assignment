@@ -3,7 +3,7 @@ const gameEngine = new GameEngine();
 const ASSET_MANAGER = new AssetManager();
 
 
-ASSET_MANAGER.queueDownload("./resources/NightBorne.png"); // looked pixely to me
+ASSET_MANAGER.queueDownload("./resources/NightBorneWarrior.png"); // looked pixely to me
 ASSET_MANAGER.queueDownload("./resources/Attack_1.png");
 ASSET_MANAGER.queueDownload("./resources/Attack_2.png");
 ASSET_MANAGER.queueDownload("./resources/Attack_3.png");
